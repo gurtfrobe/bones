@@ -16,9 +16,6 @@ http://codex.wordpress.org/Editor_Style
 here http://codex.wordpress.org/Function_Reference/add_editor_style */
 body#tinymce.wp-editor {
 
-	// normalize: http://necolas.github.io/normalize.css/
-	@import "partials/normalize";
-
 	// Sass variables
 	@import "partials/variables";
 

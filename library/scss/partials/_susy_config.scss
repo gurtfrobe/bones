@@ -1,0 +1,32 @@
+/******************************************************************
+Site Name: Chefs on the Run
+Author: Redline Digital
+
+Stylesheet: Susy Config
+******************************************************************/
+
+// Import Susy Grids
+@import "susy";
+
+// Changing Susy default global settings
+// http://css-tricks.com/build-web-layouts-easily-susy/
+$susy: (
+  columns: 12,
+  gutters: .25,
+  container: 1140px,
+  global-box-sizing: border-box,
+  last-flow: from
+);
+
+$techonolgies_layout: (
+  columns: 10,
+  gutters: 1
+);
+
+$team_popup_layout: (
+  flow: rtl,
+  gutters: 1
+);
+
+/* Makes border-box properties */
+@include border-box-sizing;
